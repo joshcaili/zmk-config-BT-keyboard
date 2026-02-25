@@ -63,7 +63,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC  &kp LCTRL  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp PAGE_UP  &kp INS  &kp HOME  &kp MINUS  &kp EQUAL  &none  &kp LBKT  &kp RBKT  &kp BACKSLASH  &kp LSHFT  &to 0  &to 1  &kp PAGE_DOWN  &kp DELETE  &kp END  &kp UNDER  &kp PLUS  &none  &kp LBRC  &kp RIGHT_BRACE  &kp TILDE  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC  &kp LCTRL  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp PAGE_UP  &kp INS  &kp HOME  &kp MINUS  &kp EQUAL  &msc SCRL_UP  &kp LBKT  &kp RBKT  &kp BACKSLASH  &kp LSHFT  &to 0  &to 1  &kp PAGE_DOWN  &kp DELETE  &kp END  &kp UNDER  &kp PLUS  &msc SCRL_DOWN  &kp LBRC  &kp RIGHT_BRACE  &kp TILDE  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
