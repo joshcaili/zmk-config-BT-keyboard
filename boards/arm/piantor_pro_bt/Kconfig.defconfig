@@ -1,15 +1,15 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_PIANTOR_PRO_BT_LEFT
+if BOARD_PIANTOR_PRO_BT_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Piantor Pro BT"
+    default "Piantor Pro Jesh"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # BOARD_PIANTOR_PRO_BT_LEFT
+endif # BOARD_PIANTOR_PRO_BT_RIGHT
 
 if BOARD_PIANTOR_PRO_BT_LEFT || BOARD_PIANTOR_PRO_BT_RIGHT
 
