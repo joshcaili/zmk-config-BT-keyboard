@@ -32,14 +32,14 @@
         Dusk {
             display-name = "Dusk";
             bindings = <
-&ModtapLayer 5 TAB  &kp X  &kp F  &kp D  &kp P  &kp Q  &kp J  &kp SQT  &kp O  &kp U  &kp DOT  &kp GLOBE  &kp BACKSPACE  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp W  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 4  &mo 3  &ModtapLayer 6 SPACE  &kp LEFT_CONTROL
+&ModtapLayer 6 TAB  &kp X  &kp F  &kp D  &kp P  &kp Q  &kp J  &kp SQT  &kp O  &kp U  &kp DOT  &kp GLOBE  &kp BACKSPACE  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp W  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 5  &mo 4  &ModtapLayer 7 SPACE  &kp LEFT_CONTROL
             >;
         };
 
         Colemak {
             display-name = "Colemak";
             bindings = <
-&ModtapLayer 5 TAB  &kp Q  &kp W  &kp F  &kp P  &kp Z  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp GLOBE  &kp BACKSPACE  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp SQT  &kp LSHFT  &kp X  &kp C  &kp D  &kp V  &kp B  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &ModtapLayer 6 SPACE  &mo 4  &mo 3  &kp ENTER  &kp LEFT_CONTROL
+&ModtapLayer 6 TAB  &kp Q  &kp W  &kp F  &kp P  &kp Z  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp GLOBE  &kp BACKSPACE  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp SQT  &kp LSHFT  &kp X  &kp C  &kp D  &kp V  &kp B  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &ModtapLayer 7 SPACE  &mo 5  &mo 4  &kp ENTER  &kp LEFT_CONTROL
             >;
         };
 
@@ -53,7 +53,14 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp GLOBE  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LGUI  &kp SPACE  &mo 4  &mo 3  &kp RETURN  &kp RALT
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp GLOBE  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LGUI  &kp SPACE  &mo 5  &mo 4  &kp RETURN  &kp RALT
+            >;
+        };
+
+        Night {
+            display-name = "Night";
+            bindings = <
+&kp LGUI  &kp B  &kp F  &kp L  &kp K  &kp Q  &kp P  &kp G  &kp O  &kp U  &kp LGUI  &kp LGUI  &kp BACKSPACE  &kp N  &kp S  &kp H  &kp T  &kp M  &kp Y  &kp C  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp X  &kp V  &kp J  &kp D  &kp Z  &kp BSPC  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 5  &mo 4  &ModtapLayer 7 SPACE  &kp LEFT_CONTROL
             >;
         };
 
@@ -67,7 +74,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp MINUS  &kp EQUAL  &kp RSHFT  &kp LBKT  &kp RBKT  &kp BSLH  &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp RSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LS(UNDER)  &kp PLUS  &kp LSHFT  &kp LBRC  &kp RIGHT_BRACE  &kp LSHFT  &kp LSHFT  &trans  &kp LSHFT  &kp LSHFT  &trans  &kp LSHFT
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp MINUS  &kp EQUAL  &kp RSHFT  &kp LBKT  &kp RBKT  &kp BSLH  &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp ENTER  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LS(UNDER)  &kp PLUS  &kp LSHFT  &kp LBRC  &kp RIGHT_BRACE  &kp LSHFT  &kp LSHFT  &trans  &kp LSHFT  &kp LSHFT  &trans  &kp LSHFT
             >;
         };
 
@@ -88,14 +95,14 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&bt BT_NXT  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &bootloader  &bootloader  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &kp K_PLAY_PAUSE  &kp BSPC  &kp ESCAPE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp PRINTSCREEN  &mkp LCLK  &mkp RCLK  &mkp MCLK  &kp F13  &kp F13  &kp LSHFT  &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24  &kp K_MENU  &kp K_CANCEL  &kp K_SELECT  &kp K_FIND  &none  &trans  &none  &studio_unlock  &trans  &none
+&bt BT_NXT  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &bootloader  &bootloader  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &kp K_PLAY_PAUSE  &kp BSPC  &none  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp PRINTSCREEN  &mkp LCLK  &mkp RCLK  &mkp MCLK  &kp F13  &kp F13  &kp LSHFT  &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24  &kp K_MENU  &kp K_CANCEL  &kp K_SELECT  &kp K_FIND  &none  &trans  &none  &studio_unlock  &trans  &none
             >;
         };
 
         SpacebarLayer {
             display-name = "Space";
             bindings = <
-&kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp DELETE  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &kp PAUSE_BREAK  &kp K_BACK  &kp K_FORWARD  &none  &none  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &to 1  &to 2  &to 0  &none  &trans  &none
+&kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp DELETE  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &kp PAUSE_BREAK  &kp K_BACK  &kp K_FORWARD  &to 3  &none  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &to 1  &to 2  &to 0  &none  &trans  &none
             >;
         };
     };
