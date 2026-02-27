@@ -29,6 +29,13 @@
     keymap {
         compatible = "zmk,keymap";
 
+        Dusk {
+            display-name = "Dusk";
+            bindings = <
+&kp GLOBE  &kp X  &kp F  &kp D  &kp P  &kp Q  &kp J  &kp SQT  &kp O  &kp U  &kp DOT  &ModtapLayer 6 TAB  &kp BACKSPACE  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp W  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 5  &mo 4  &ModtapLayer 7 SPACE  &kp LEFT_CONTROL
+            >;
+        };
+
         qwerty {
             display-name = "QWERTY";
 
@@ -40,13 +47,6 @@
 
             bindings = <
 &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp GLOBE  &kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LGUI  &kp R  &mo 5  &mo 4  &ModtapLayer 7 SPACE  &kp LC(RALT)
-            >;
-        };
-
-        Dusk {
-            display-name = "Dusk";
-            bindings = <
-&ModtapLayer 6 TAB  &kp X  &kp F  &kp D  &kp P  &kp Q  &kp J  &kp SQT  &kp O  &kp U  &kp DOT  &kp GLOBE  &kp BACKSPACE  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp W  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 5  &mo 4  &ModtapLayer 7 SPACE  &kp LEFT_CONTROL
             >;
         };
 
@@ -102,7 +102,7 @@
         SpacebarLayer {
             display-name = "Space";
             bindings = <
-&kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp DELETE  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &kp PAUSE_BREAK  &kp K_BACK  &kp K_FORWARD  &none  &none  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &to 2  &to 1  &to 0  &to 3  &trans  &none
+&kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp DELETE  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &kp PAUSE_BREAK  &kp K_BACK  &kp K_FORWARD  &none  &none  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &to 2  &to 0  &to 1  &to 3  &trans  &none
             >;
         };
     };
