@@ -32,7 +32,7 @@
         Dusk {
             display-name = "Dusk";
             bindings = <
-&kp GLOBE  &kp X  &kp F  &kp D  &kp P  &kp Q  &kp J  &kp SQT  &kp O  &kp U  &kp DOT  &ModtapLayer 6 TAB  &kp BACKSPACE  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp W  &kp L  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 5  &mo 4  &ModtapLayer 7 SPACE  &kp LEFT_CONTROL
+&ModtapLayer 6 TAB  &kp X  &kp F  &kp D  &kp P  &kp SLASH  &kp GLOBE  &kp J  &kp O  &kp U  &kp F23  &kp F24  &kp BACKSPACE  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp Z  &kp W  &kp L  &kp COMMA  &kp DOT  &kp Q  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 5  &mo 4  &ModtapLayer 7 SPACE  &kp LEFT_CONTROL
             >;
         };
 
@@ -53,7 +53,7 @@
         Colemak {
             display-name = "Colemak";
             bindings = <
-&ModtapLayer 6 TAB  &kp Q  &kp W  &kp F  &kp P  &kp Z  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp GLOBE  &kp BACKSPACE  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp SQT  &kp LSHFT  &kp X  &kp C  &kp D  &kp V  &kp B  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &ModtapLayer 7 SPACE  &mo 5  &mo 4  &kp ENTER  &kp LEFT_CONTROL
+&ModtapLayer 6 TAB  &kp Q  &kp W  &kp F  &kp P  &kp Z  &kp J  &kp L  &kp U  &kp Y  &kp SEMICOLON  &kp GLOBE  &kp BACKSPACE  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp SQT  &kp LSHFT  &kp X  &kp C  &kp D  &kp V  &kp B  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 5  &mo 4  &ModtapLayer 7 SPACE  &kp LEFT_CONTROL
             >;
         };
 
@@ -95,7 +95,7 @@
             //                    | GUI |     | SPC   | ENT |     | ALT |
 
             bindings = <
-&bt BT_NXT  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &bootloader  &bootloader  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &kp K_PLAY_PAUSE  &kp BSPC  &none  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp PRINTSCREEN  &mkp LCLK  &mkp RCLK  &mkp MCLK  &kp F13  &kp F13  &kp LSHFT  &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24  &kp K_MENU  &kp K_CANCEL  &kp K_SELECT  &kp K_FIND  &none  &trans  &none  &studio_unlock  &trans  &none
+&bt BT_NXT  &rgb_ug RGB_EFF  &none  &rgb_ug RGB_BRD  &rgb_ug RGB_SPI  &bootloader  &bootloader  &rgb_ug RGB_COLOR_HSB(0,0,100)  &rgb_ug RGB_SPD  &rgb_ug RGB_BRI  &kp K_PLAY_PAUSE  &kp BSPC  &none  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp PRINTSCREEN  &mkp LCLK  &mkp RCLK  &mkp MCLK  &kp F13  &kp F13  &kp LSHFT  &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24  &kp K_MENU  &kp K_CANCEL  &kp K_SELECT  &kp K_FIND  &none  &trans  &none  &studio_unlock  &trans  &none
             >;
         };
 
