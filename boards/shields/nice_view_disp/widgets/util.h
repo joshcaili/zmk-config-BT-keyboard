@@ -1,6 +1,6 @@
 /*
  *
- * Copyright (c) 2023 The ZMK Contributors
+ * Copyright (c) 2025 The ZMK Contributors
  * SPDX-License-Identifier: MIT
  *
  */
@@ -8,12 +8,14 @@
 #include <lvgl.h>
 #include <zmk/endpoints.h>
 
+#define NICEVIEW_PROFILE_COUNT 5
+
 #define CANVAS_SIZE 68
 
 #define LVGL_BACKGROUND                                                                            \
-    IS_ENABLED(CONFIG_NICE_VIEW_DISP_WIDGET_INVERTED) ? lv_color_black() : lv_color_white()
+    IS_ENABLED(CONFIG_NICE_VIEW_WIDGET_INVERTED) ? lv_color_black() : lv_color_white()
 #define LVGL_FOREGROUND                                                                            \
-    IS_ENABLED(CONFIG_NICE_VIEW_DISP_WIDGET_INVERTED) ? lv_color_white() : lv_color_black()
+    IS_ENABLED(CONFIG_NICE_VIEW_WIDGET_INVERTED) ? lv_color_white() : lv_color_black()
 
 struct status_state {
     uint8_t battery;
@@ -23,6 +25,8 @@ struct status_state {
     int active_profile_index;
     bool active_profile_connected;
     bool active_profile_bonded;
+    bool profiles_connected[NICEVIEW_PROFILE_COUNT];
+    bool profiles_bonded[NICEVIEW_PROFILE_COUNT];
     uint8_t layer_index;
     const char *layer_label;
     uint8_t wpm[10];
