@@ -102,7 +102,7 @@
         Vim {
             display-name = "Vim";
             bindings = <
-&kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp ESC  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &kp PAUSE_BREAK  &kp K_BACK  &kp K_FORWARD  &none  &none  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &to 2  &to 0  &to 1  &to 3  &trans  &none
+&kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp K_BACK  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp ESC  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &kp PAUSE_BREAK  &mkp MB1  &mkp MB2  &mkp MCLK  &mkp MB4  &mkp MB5  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &kp LSHFT  &kp K_BACK  &kp K_FORWARD  &kp LSHFT  &kp LSHFT  &kp LSHFT  &to 2  &to 0  &to 1  &to 3  &trans  &none
             >;
         };
     };
