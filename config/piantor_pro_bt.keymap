@@ -32,7 +32,7 @@
         Dusk {
             display-name = "Dusk";
             bindings = <
-&ModtapLayer 6 TAB  &kp X  &kp F  &kp D  &kp P  &kp SLASH  &kp GLOBE  &kp J  &kp O  &kp U  &kp F23  &kp F24  &kp BACKSPACE  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp Z  &kp L  &kp COMMA  &kp DOT  &kp Q  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 7  &mo 4  &kp SPACE  &mo 5
+&kp TAB  &kp X  &kp F  &kp D  &kp P  &ModtapLayer 6 BACKSLASH  &kp J  &kp GLOBE  &kp O  &kp U  &kp F23  &kp F24  &kp BACKSPACE  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp Z  &kp L  &kp COMMA  &kp DOT  &kp Q  &kp LEFT_ALT  &kp LGUI  &kp R  &mo 7  &mo 4  &kp SPACE  &mo 5
             >;
         };
 
