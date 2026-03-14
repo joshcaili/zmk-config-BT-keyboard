@@ -60,7 +60,7 @@
         num {
             display-name = "NUMBER";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp ESCAPE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp ENTER  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &to 0  &to 1  &to 2  &to 0  &kp BSPC  &kp BSPC  &kp LSHFT  &trans  &kp LSHFT  &studio_unlock  &trans  &kp LSHFT
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp ESCAPE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp ENTER  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &to 0  &to 1  &to 2  &to 7  &mo 5  &kp BSPC  &kp LSHFT  &trans  &kp LSHFT  &studio_unlock  &trans  &kp LSHFT
             >;
         };
 
@@ -74,7 +74,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp CAPS  &kp CAPS  &kp CAPS  &kp CAPS  &kp CAPS  &kp MINUS  &kp EQUAL  &kp CAPS  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp ENTER  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24  &kp LS(UNDER)  &kp PLUS  &kp CAPS  &kp LBRC  &kp RIGHT_BRACE  &kp CAPS  &kp LSHFT  &trans  &kp LSHFT  &kp LSHFT  &trans  &kp LSHFT
+&kp TILDE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp MINUS  &kp EQUAL  &kp CAPS  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp ENTER  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24  &kp LS(UNDER)  &kp PLUS  &kp F18  &kp LBRC  &kp RIGHT_BRACE  &kp F19  &kp LSHFT  &trans  &kp LSHFT  &kp LSHFT  &trans  &kp LSHFT
             >;
         };
 
@@ -95,7 +95,7 @@
         Vim {
             display-name = "Vim";
             bindings = <
-&kp LSHFT  &kp LSHFT  &kp DELETE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp K_BACK  &kp PAUSE_BREAK  &mkp MB3  &studio_unlock  &kp LSHFT  &kp LSHFT  &kp ESC  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &mkp MB4  &mkp MB1  &mkp MB2  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB5  &kp LSHFT  &kp LSHFT  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &mkp MB5  &mkp MB1  &mkp MB2  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp LSHFT  &to 0  &to 0  &to 2  &to 0  &to 2  &to 0
+&kp LSHFT  &kp LSHFT  &kp DELETE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp K_BACK  &kp PAUSE_BREAK  &mkp MB3  &studio_unlock  &kp F17  &kp F16  &kp ESC  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &mkp MB4  &mkp MB1  &mkp MB2  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB5  &kp F13  &kp F14  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &mkp MB5  &mkp MB1  &mkp MB2  &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp F15  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
