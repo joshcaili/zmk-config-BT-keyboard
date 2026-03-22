@@ -74,7 +74,7 @@
             //                    | GUI |     | SPC | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp MINUS  &kp EQUAL  &kp CAPS  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp ENTER  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24  &kp LS(UNDER)  &kp PLUS  &kp F18  &kp LBRC  &kp RIGHT_BRACE  &kp F19  &kp LSHFT  &trans  &kp LSHFT  &kp LSHFT  &trans  &kp LSHFT
+&kp TILDE  &kp UNDERSCORE  &kp PLUS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp F17  &kp MINUS  &kp EQUAL  &kp F13  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp ENTER  &kp F19  &kp F20  &kp F21  &kp F22  &kp F23  &kp F24  &kp F16  &kp PLUS  &kp F18  &kp F14  &kp F15  &kp F19  &kp LSHFT  &trans  &kp LSHFT  &kp LSHFT  &trans  &kp LSHFT
             >;
         };
 
