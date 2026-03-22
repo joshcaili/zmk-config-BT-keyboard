@@ -23,6 +23,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <2202>;
+            flavor = "tap-preferred";
         };
     };
 
