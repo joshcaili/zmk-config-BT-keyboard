@@ -68,7 +68,7 @@
         num {
             display-name = "NUMBER";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp ESCAPE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp ENTER  &kp F13  &kp F14  &kp F15  &kp F16  &to 0  &to 9  &to 1  &to 4  &to 9  &to 8  &mo 6  &kp BSPC  &kp LSHFT  &trans  &kp LSHFT  &studio_unlock  &trans  &kp LSHFT
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp ESCAPE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp ENTER  &kp F13  &kp F14  &kp F15  &kp F16  &to 0  &to 9  &to 1  &to 4  &to 9  &to 8  &mo 6  &kp BSPC  &bt BT_NXT  &trans  &kp LSHFT  &studio_unlock  &trans  &kp LSHFT
             >;
         };
 
