@@ -33,14 +33,14 @@
         TwoHand {
             display-name = "TwoHand";
             bindings = <
-&ModtapLayer 7 GRAVE  &kp N2  &kp N3  &ModtapLayer 8 NUMBER_4  &kp N5  &kp N6  &ModtapLayer 6 N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &ModtapLayer 8 SQT  &kp RET  &kp LEFT_COMMAND  &kp SPACE  &kp Z  &kp M  &kp COMMA  &kp PERIOD
+&ModtapLayer 8 GRAVE  &kp N2  &kp N3  &ModtapLayer 8 NUMBER_4  &kp N5  &kp N6  &ModtapLayer 5 N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &ModtapLayer 8 SQT  &kp RET  &kp LEFT_COMMAND  &kp SPACE  &kp Z  &kp M  &kp COMMA  &kp PERIOD
             >;
         };
 
         LHS {
             display-name = "LHS";
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp RET  &kp X  &kp C  &kp V  &mo 6  &trans  &mo 5
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp RET  &kp X  &kp C  &kp V  &mo 5  &trans  &mo 4
             >;
         };
 
@@ -54,16 +54,31 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LEFT_CONTROL  &kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LGUI  &kp R  &mo 7  &mo 6  &kp SPACE  &kp LEFT_ALT
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LEFT_CONTROL  &kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LGUI  &kp R  &mo 8  &mo 5  &kp SPACE  &kp LEFT_ALT
             >;
         };
 
         Cole {
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &kp BSPC  &kp BSPC  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp APOS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RALT  &kp LEFT_COMMAND  &trans  &trans  &mo 5  &trans  &kp LEFT_CONTROL
+&kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &kp BSPC  &kp BSPC  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp APOS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RALT  &kp LEFT_COMMAND  &trans  &trans  &mo 4  &trans  &kp LEFT_CONTROL
             >;
 
             label = "Cole";
+        };
+
+        Dusk {
+            bindings = <
+&kp TAB  &kp X  &kp L  &kp D  &kp P  &kp F23  &kp FSLH  &kp J  &kp O  &kp U  &kp SEMI  &kp LCTRL  &kp BSPC  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp Z  &kp F  &kp COMMA  &kp DOT  &kp Q  &kp RALT  &kp LEFT_COMMAND  &kp R  &mo 8  &mo 5  &kp SPACE  &mo 7
+            >;
+
+            label = "Dusk";
+        };
+
+        Vim {
+            display-name = "Vim";
+            bindings = <
+&kp LSHFT  &kp LSHFT  &kp DELETE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp K_BACK  &kp PAUSE_BREAK  &mkp MB3  &studio_unlock  &kp F17  &kp F16  &kp ESC  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &kp UP_ARROW  &mkp MB1  &mkp MB2  &kp LEFT  &kp RIGHT  &mkp MB4  &kp F13  &kp F14  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &kp DOWN  &mkp LCLK  &mkp MB2  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB5  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
 
         symbols {
@@ -80,25 +95,10 @@
             >;
         };
 
-        Dusk {
-            bindings = <
-&kp TAB  &kp X  &kp L  &kp D  &kp P  &kp F23  &kp FSLH  &kp J  &kp O  &kp U  &kp SEMI  &kp LCTRL  &kp BSPC  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp Z  &kp F  &kp COMMA  &kp DOT  &kp Q  &kp RALT  &kp LEFT_COMMAND  &kp R  &mo 7  &mo 6  &kp SPACE  &mo 4
-            >;
-
-            label = "Dusk";
-        };
-
-        Vim {
-            display-name = "Vim";
-            bindings = <
-&kp LSHFT  &kp LSHFT  &kp DELETE  &kp LA(LEFT)  &kp LA(RIGHT)  &kp INSERT  &kp K_BACK  &kp PAUSE_BREAK  &mkp MB3  &studio_unlock  &kp F17  &kp F16  &kp ESC  &kp DOWN  &kp UP  &kp LEFT  &kp RIGHT  &kp PAGE_UP  &kp UP_ARROW  &mkp MB1  &mkp MB2  &kp LEFT  &kp RIGHT  &mkp MB4  &kp F13  &kp F14  &kp LSHFT  &kp HOME  &kp END  &kp PAGE_DOWN  &kp DOWN  &mkp LCLK  &mkp MB2  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB5  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
         num {
             display-name = "NUMBER";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp ESCAPE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp ENTER  &kp F23  &kp F14  &kp F15  &kp F16  &kp GLOBE  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &to 1  &to 2  &to 3  &to 5  &kp F4  &kp F24  &bt BT_NXT  &kp F6  &studio_unlock  &studio_unlock  &kp F4  &kp F24
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp ESCAPE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp ENTER  &kp F23  &kp F14  &kp F15  &kp F16  &kp GLOBE  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &to 0  &to 1  &to 2  &to 3  &to 4  &kp F24  &bt BT_NXT  &kp F6  &studio_unlock  &studio_unlock  &kp F4  &kp F24
             >;
         };
 
