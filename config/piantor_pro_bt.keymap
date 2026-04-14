@@ -33,7 +33,7 @@
         TwoHand {
             display-name = "Shift";
             bindings = <
-&ModtapLayer 8 GRAVE  &kp N2  &kp N3  &ModtapLayer 5 NUMBER_4  &kp N5  &kp N6  &ModtapLayer 6 N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &ModtapLayer 5 SQT  &kp RET  &kp LEFT_COMMAND  &kp SPACE  &kp Z  &kp M  &kp COMMA  &kp PERIOD
+&ModtapLayer 3 GRAVE  &kp N2  &kp N3  &ModtapLayer 5 NUMBER_4  &kp N5  &kp N6  &ModtapLayer 6 N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &ModtapLayer 5 SQT  &kp RET  &kp LEFT_COMMAND  &kp SPACE  &kp Z  &kp M  &kp COMMA  &kp PERIOD
             >;
         };
 
@@ -111,7 +111,7 @@
 &kp TAB  &kp X  &kp L  &kp F  &kp P  &kp F23  &kp FSLH  &kp J  &kp O  &kp U  &kp SEMI  &kp LCTRL  &kp BSPC  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp Z  &kp F  &kp COMMA  &kp DOT  &kp Q  &kp RALT  &kp LEFT_COMMAND  &kp R  &mo 3  &to 6  &kp SPACE  &mo 4
             >;
 
-            label = "layerdusk";
+            label = "Dusk";
         };
     };
 };
