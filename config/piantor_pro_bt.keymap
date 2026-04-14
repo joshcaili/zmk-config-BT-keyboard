@@ -22,7 +22,7 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <400>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
     };
@@ -33,14 +33,14 @@
         TwoHand {
             display-name = "Shift";
             bindings = <
-&kp GRAVE  &kp N2  &kp N3  &ModtapLayer 3 NUMBER_4  &kp N5  &kp N6  &ModtapLayer 6 N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &ModtapLayer 6 LEFT_BRACKET  &ModtapLayer 6 RIGHT_BRACKET  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &ModtapLayer 6 SQT  &kp RET  &kp LEFT_COMMAND  &kp SPACE  &kp Z  &kp M  &kp COMMA  &kp PERIOD
+&kp GRAVE  &kp N2  &kp N3  &ModtapLayer 3 NUMBER_4  &kp N5  &kp N6  &ModtapLayer 6 N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &ModtapLayer 6 SQT  &kp RET  &kp LEFT_COMMAND  &kp SPACE  &kp Z  &kp M  &kp COMMA  &kp PERIOD
             >;
         };
 
         LHS {
             display-name = "Shift";
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp RET  &kp X  &kp C  &kp V  &to 4  &trans  &trans
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp CAPS  &kp A  &kp S  &kp D  &kp F  &kp G  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp RET  &kp X  &kp C  &kp V  &to 6  &trans  &mo 4
             >;
         };
 
@@ -54,14 +54,14 @@
             //                    | GUI | LWR | SPC | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LEFT_CONTROL  &kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LGUI  &kp R  &mo 7  &mo 4  &kp SPACE  &kp LEFT_ALT
+&kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LEFT_CONTROL  &kp CAPSLOCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI  &kp SQT  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT  &kp LGUI  &kp R  &mo 3  &mo 6  &kp SPACE  &kp LEFT_ALT
             >;
         };
 
         num {
             display-name = "NUMBER";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp ESCAPE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp ENTER  &kp F23  &kp F14  &kp F15  &kp F16  &kp GLOBE  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &to 1  &to 2  &to 7  &to 8  &kp F4  &kp F24  &bt BT_NXT  &kp F6  &studio_unlock  &studio_unlock  &kp F4  &kp F24
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp ESCAPE  &kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &kp F19  &kp F20  &kp F21  &kp F22  &kp ENTER  &kp F23  &kp F14  &kp F15  &kp F16  &kp GLOBE  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &to 1  &to 2  &to 7  &to 0  &kp F4  &kp F24  &bt BT_NXT  &kp F6  &studio_unlock  &studio_unlock  &kp F4  &kp F24
             >;
         };
 
@@ -106,11 +106,12 @@
             >;
         };
 
-        Dusk {
-            display-name = "Dusk";
+        layer_8 {
             bindings = <
-&kp TAB  &kp X  &kp L  &ModtapLayer 6 D  &kp P  &kp F23  &ModtapLayer 6 SLASH  &kp J  &kp O  &kp U  &kp SEMI  &kp LCTRL  &kp BSPC  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp Z  &kp F  &kp COMMA  &kp DOT  &kp Q  &kp RALT  &kp LEFT_COMMAND  &kp R  &mo 3  &mo 6  &kp SPACE  &mo 4
+&kp TAB  &kp X  &kp L  &kp F  &kp P  &kp F23  &kp FSLH  &kp J  &kp O  &kp U  &kp SEMI  &kp LCTRL  &kp BSPC  &kp N  &kp S  &kp T  &kp C  &kp Y  &kp M  &kp H  &kp A  &kp E  &kp I  &kp SQT  &kp LSHFT  &kp B  &kp V  &kp K  &kp G  &kp W  &kp Z  &kp F  &kp COMMA  &kp DOT  &kp Q  &kp RALT  &kp LEFT_COMMAND  &trans  &trans  &to 6  &trans  &kp LEFT_CONTROL
             >;
+
+            label = "layerdusk";
         };
     };
 };
